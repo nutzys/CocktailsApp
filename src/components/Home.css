@@ -1,0 +1,36 @@
+.home-container {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 560px;
+    background-color: #fff;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    color: #000000;
+    height: 24px;
+    width: 24px;
+}
+
+
+.input-field {
+    height: 38px;
+    width: 500px;
+    background-color: transparent;
+    border: none;
+}
+
+.input-field:focus {
+    outline: none;
+}

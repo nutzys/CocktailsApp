@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #171717;
+    height: 60px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.page-container {
+    display: flex;
+    gap: 90px;
+    padding-right: 100px;
+}

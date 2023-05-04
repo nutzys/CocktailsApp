@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 300px;
+    height: 450px;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.text-container {
+    margin: auto 0;
+}

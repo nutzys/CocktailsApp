@@ -1,0 +1,65 @@
+.big-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-containers {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    gap: 30px;
+    margin-top: 100px;
+    width: 900px;
+    flex-wrap: wrap;
+}
+
+.image-containers img {
+    width: 400px;
+    height: 400px;
+}
+
+.text-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-containers h1 {
+    color: #fff;
+}
+
+.text-containers span {
+    background-color: #fff;
+    padding: 5px 12px;
+    border-radius: 150px;
+    font-size: small;
+}
+
+.ingredients {
+    display: flex;
+    gap: 10px;
+}
+
+.title-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-action h1 {
+    color: #fff;
+}
+
+.title-action button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.title-action button:hover {
+    color: #862e9c;
+}
